@@ -208,7 +208,7 @@ export default function Hero() {
                 <img
                   src="/1.jpeg"
                   alt="Kavirathna Rumesha Ishini Silva"
-                  className="w-full h-full object-cover"
+                  className="w-100 h-100 object-cover"
                 />
                 {/* Overlay gradient */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
