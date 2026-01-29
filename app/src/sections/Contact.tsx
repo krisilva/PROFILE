@@ -253,10 +253,10 @@ export default function Contact() {
                   <div>
                     <span className="block text-gray-500 text-sm">Email</span>
                     <a
-                      href="mailto:kavirathna@example.com"
+                      href="mailto:ishinisilva19@gmail.com"
                       className="text-white hover:text-orange-500 transition-colors duration-300"
                     >
-                      kavirathna@example.com
+                     ishinisilva19@gmail.com
                     </a>
                   </div>
                 </div>
@@ -268,10 +268,10 @@ export default function Contact() {
                   <div>
                     <span className="block text-gray-500 text-sm">Phone</span>
                     <a
-                      href="tel:+1234567890"
+                      href="tel:(+94) 076 1786375"
                       className="text-white hover:text-orange-500 transition-colors duration-300"
                     >
-                      +1 234 567 890
+                      (+94) 076 1786375
                     </a>
                   </div>
                 </div>
