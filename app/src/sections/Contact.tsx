@@ -282,7 +282,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <span className="block text-gray-500 text-sm">Location</span>
-                    <span className="text-white">Colombo, Sri Lanka</span>
+                    <span className="text-white">Homagama,Colombo, Sri Lanka</span>
                   </div>
                 </div>
               </div>
