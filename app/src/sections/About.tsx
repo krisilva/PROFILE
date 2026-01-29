@@ -5,9 +5,9 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 const stats = [
-  { value: 5, suffix: '+', label: 'Years Experience' },
-  { value: 50, suffix: '+', label: 'Projects Completed' },
-  { value: 20, suffix: '+', label: 'Happy Clients' },
+  { value: 6, suffix: '+', label: 'Months Experience' },
+  { value: 10, suffix: '+', label: 'Projects Completed' },
+  { value: 10, suffix: '+', label: 'Happy Clients' },
 ];
 
 export default function About() {
@@ -108,7 +108,7 @@ export default function About() {
   }, []);
 
   const bioText =
-    "I'm a creative frontend developer with a keen eye for design and a passion for building seamless user interfaces. With over 5 years of experience in web development, I specialize in creating responsive, interactive, and visually stunning websites that leave a lasting impression. My journey began with a curiosity for how things work on the web, which evolved into a deep love for crafting digital experiences. I believe in writing clean, maintainable code and staying up-to-date with the latest technologies and best practices.";
+    "I'm a creative frontend developer And Intern DevOps Engineer with a keen eye for design and a passion for building seamless user interfaces. With over 6 Months  of experience in DevOps Engineer And 3+ Years Academic Experience of web development, I specialize in creating responsive, interactive, and visually stunning websites that leave a lasting impression. My journey began with a curiosity for how things work on the web, which evolved into a deep love for crafting digital experiences. I believe in writing clean, maintainable code and staying up-to-date with the latest technologies and best practices.";
 
   return (
     <section
@@ -142,9 +142,9 @@ export default function About() {
             >
               <div className="relative w-full max-w-md mx-auto aspect-square rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="/about-portrait.jpg"
+                  src="/3.jpeg"
                   alt="About Kavirathna"
-                  className="w-full h-full object-cover"
+                  className="w-100 h-100 object-cover"
                 />
               </div>
               {/* Decorative elements */}
@@ -167,7 +167,7 @@ export default function About() {
 
               {/* Skills Tags */}
               <div className="flex flex-wrap gap-3 mb-8">
-                {['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'UI/UX Design'].map(
+                {['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'UI/UX Design','LINUX', 'GIT','PYTHON','FLUTTER','PROGRAMMING C AND C#',].map(
                   (skill) => (
                     <span
                       key={skill}
